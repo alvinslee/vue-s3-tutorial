@@ -6,8 +6,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "deploy": "aws --profile vue-deployer --region us-west-2 s3 sync ./dist s3://vue-deploy-aws --delete"
+    "lint": "vue-cli-service lint"
   },
   "main": "index.html",
   "dependencies": {
